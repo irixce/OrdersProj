@@ -11,6 +11,7 @@ CORS(app, resources={r'/*': {'origins': '*'}})
 
 items = ["Apple", "Orange", "Lemon", "Strawberry"]
 db_dict = {}
+items_dict={}
 
 
 @app.route('/items', methods=['GET', 'POST'])
